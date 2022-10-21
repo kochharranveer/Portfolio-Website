@@ -1,0 +1,192 @@
+body {
+    background-color: black;
+    color: #ffffffcc;
+    text-align: center;
+    font-family: monospace;  
+    font-size: 1.2rem;
+    max-width: 100%;
+    overflow-x: hidden; 
+    font-weight: 800; 
+}
+
+.nav_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    position: relative;
+    right: 8%;
+}
+
+.nav {
+    color: #ffffffcc;
+    text-decoration: none;
+    font-size: 1.5rem;  
+    margin-left: 1rem;
+    margin: 0.5rem;
+}
+
+.nav:hover {
+    text-decoration: underline;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background: url("Images/SectionBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.all {
+    position: relative;
+    top: 4rem;
+}
+
+.intro {
+    height: 18rem;
+    margin-bottom: 10rem;
+}
+
+.intro_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.intro_head {
+    position: relative;
+    top: 12rem;
+    text-align: left;
+    width: fit-content;
+}
+
+.intro_bio {
+    background-color: #ffffffcc;
+    color: black;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    bottom: 3.5rem;
+    font-size: 1.5rem;
+}
+
+.pfp {
+    position: relative;
+    top: 1rem;
+    margin-right: 1rem;
+    filter: grayscale(100%);
+}
+
+.intro_para {
+    margin-bottom: 7rem;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.education {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: url("Images/SectionBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: con;
+    background-position: center;
+    border: 2px solid #ffffffcc;
+    margin-bottom: 3rem;
+    width: 80%;
+}
+
+.skills {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: url("Images/SectionBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: con;
+    background-position: center;
+    border: 2px solid #ffffffcc;
+    margin-bottom: 10rem;
+    width: 80%;
+}
+
+.subtitle {
+    background-color: #ffffffcc;
+    color: black;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background: url("Images/SectionBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.form {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: url("Images/SectionBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: con;
+    background-position: center;
+    border: 2px solid #ffffffcc;
+    top: 6rem;
+    zoom: 150%;
+}
+
+.form_subtitle {
+    background-color: #ffffffcc;
+    font-size: 1rem;
+    color: black;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.submit_button {
+    color: #ffffffcc;
+    background-color: black;
+    border: 2px solid #ffffffcc;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.submit_button:hover {
+    color: black;
+    background-color: #ffffffcc;
+    border: 2px solid #ffffffcc;
+    border-radius: 3px;
+}
+
+.logo {
+    position: fixed;
+    top: 0;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    margin-left: 10%;
+}
