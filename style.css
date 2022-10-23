@@ -103,6 +103,11 @@ body {
     width: 80%;
 }
 
+.institution {
+    color: black;
+    background-color: #ffffffcc;
+}
+
 .skills {
     position: relative;
     left: 50%;
