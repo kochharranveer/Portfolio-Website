@@ -187,3 +187,14 @@ form {
     margin-left: 10%;
     margin-right: 10%;
 }
+
+/* .theme_switcher {
+    position: fixed;
+    background-color: black;
+    border: 3px solid white;
+    border-radius: 100px;
+    padding: 5px;
+    top: 7rem;
+    left: 85%;
+    transform: translate(-50%);
+} */
