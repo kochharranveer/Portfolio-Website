@@ -16,16 +16,20 @@
     <div class="links">
         <a href=""></a>
     </div>
-    <div class="form">
-        <h3 class="form_subtitle">contact me.</h3>
-        <input type="text" class="name" value="name.">
-        <br>
-        <input type="email" class="email" value="email.">
-        <br>
-        <input type="text" class="message" value="message.">
-        <br>
-        <input type="button" value="submit" class="submit_button">
-    </div>
+    <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit" class="submit_button">submit</button>
+        </p>
+    </form>
     <div class="footer">
         <div class="links">
             <a class="linkedin" href=""><img src="Images/linkedin.webp" width=40 alt=""></a>
