@@ -74,7 +74,6 @@ body {
     border-right: .15em solid #ffffffcc; 
     white-space: nowrap; 
     margin: 0 auto;
-    letter-spacing: .15em;
     padding-right: 0.15em;
     animation:
       typing 1s steps(9, end),
@@ -92,8 +91,8 @@ body {
     font-size: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    animation-name: slide_in;
-    animation-duration: 1s;
+    /* animation-name: slide_in;
+    animation-duration: 1s; */
 }
 
 .pfp {
