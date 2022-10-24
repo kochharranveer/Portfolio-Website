@@ -160,10 +160,12 @@ form {
     transform: translate(-50%, 0);
     background: url("Images/SectionBackground.jpg");
     background-repeat: no-repeat;
-    background-size: con;
     background-position: center;
     border: 2px solid #ffffffcc;
-    top: 6rem;
+    top: 9rem;
+    margin: 0;
+    width: 80%;
+    padding: 1rem;
 }
 
 .submit_button {
