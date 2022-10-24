@@ -60,8 +60,25 @@ body {
 .intro_head {
     position: relative;
     top: 12rem;
-    text-align: left;
     width: fit-content;
+}
+
+.intro_head_text_1 {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.intro_head_text_2 {
+    text-align: left;
+    overflow: hidden;
+    border-right: .15em solid #ffffffcc; 
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em;
+    padding-right: 0.15em;
+    animation:
+      typing 1s steps(9, end),
+      blink-caret 1.8s infinite;
 }
 
 .intro_bio {
@@ -75,6 +92,8 @@ body {
     font-size: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    animation-name: slide_in;
+    animation-duration: 1s;
 }
 
 .pfp {
@@ -226,6 +245,29 @@ form {
         top: 4rem;
     }
     
+}
+
+@keyframes slide_in {
+    from {
+        position: relative;
+        left: 20%;
+        transform: translate(-50%);
+    }
+    to {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #ffffffcc; }
 }
 
 /* .theme_switcher {
