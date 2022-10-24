@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: #ffffffcc;
     text-align: center;
-    font-family: monospace;  
+    font-family: "playfair display black";  
     font-size: 1.2rem;
     max-width: 100%;
     overflow-x: hidden; 
@@ -43,7 +43,7 @@ body {
 
 .all {
     position: relative;
-    top: 4rem;
+    top: 5rem;
 }
 
 .intro {
@@ -73,6 +73,8 @@ body {
     transform: translate(-50%, 0);
     bottom: 3.5rem;
     font-size: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .pfp {
@@ -83,7 +85,7 @@ body {
 }
 
 .intro_para {
-    margin-bottom: 7rem;
+    margin-bottom: 10rem;
     width: 90%;
     position: relative;
     left: 50%;
@@ -92,33 +94,34 @@ body {
 
 .education {
     position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
     background: url("Images/SectionBackground.jpg");
     background-repeat: no-repeat;
-    background-size: con;
     background-position: center;
     border: 2px solid #ffffffcc;
     margin-bottom: 3rem;
     width: 80%;
+    text-align: left;
+    padding: 3rem;
+    margin: 1rem;
 }
 
 .institution {
     color: black;
     background-color: #ffffffcc;
+    padding-left: 1rem;
 }
 
 .skills {
     position: relative;
-    left: 50%;
-    transform: translate(-50%, 0);
     background: url("Images/SectionBackground.jpg");
     background-repeat: no-repeat;
-    background-size: con;
     background-position: center;
     border: 2px solid #ffffffcc;
     margin-bottom: 10rem;
     width: 80%;
+    text-align: left;
+    padding: 3rem;
+    margin: 1rem;
 }
 
 .subtitle {
@@ -128,6 +131,7 @@ body {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
+    text-align: center;
 }
 
 .footer {
@@ -186,6 +190,40 @@ form {
     margin: 0.5rem;
     margin-left: 10%;
     margin-right: 10%;
+}
+
+.data_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 6rem;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 766px) {
+    
+    .data_flex {
+        display:flex;
+        flex-direction: column;
+        margin-bottom: 3.5rem;
+    }
+
+    .skills,.education {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        margin: 0;
+        margin-bottom: 3rem;
+    }
+
+    .all {
+        position: relative;
+        top: 4rem;
+    }
+    
 }
 
 /* .theme_switcher {
