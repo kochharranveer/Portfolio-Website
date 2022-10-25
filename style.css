@@ -1,6 +1,8 @@
+/* Theme Color Variables */
+
 body[data-theme="light"] {
     --color-1: black;
-    --color-2: #ffffffcc;
+    --color-2: #eeeeee;
     --section-background: url(Images/SectionBackground-light.jpg);
     --header-footer: url(Images/SectionBackground.jpg);
     --theme-switch-image: url(Images/light_mode.png);
@@ -15,6 +17,19 @@ body[data-theme="dark"] {
     --theme-switch-image: url(Images/dark_mode.png);
     --header-footer-font: white;
 } 
+
+/* Scroll Wheel Hidden */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Styling */
 
 body {
     background-color: var(--color-2);
@@ -242,6 +257,8 @@ form {
     padding: 1rem;
 }
 
+/* Screen Specific Flex Direction */
+
 @media screen and (max-width: 766px) {
     
     .data_flex {
@@ -264,6 +281,8 @@ form {
     }
     
 }
+
+/* Animation */
 
 @keyframes slide_in {
     from {
@@ -288,10 +307,12 @@ form {
     50% { border-color: var(--color-1); }
 }
 
+/* Theme Switcher */
+
 .theme_switcher_div {
-    position: fixed;
-    top: 7rem;
-    left: 80%;
+    position: absolute;
+    top: 6rem;
+    left: 75%;
 }
 
 .switch {

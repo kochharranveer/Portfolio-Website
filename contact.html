@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Images/favicon.ico">
+    <script src="script.js"></script>
 </head>
-<body>
+<body data-theme="dark">
     <div class="header">
         <div class="nav_flex">
             <a href="index.html" class="nav">home.</a>
@@ -40,5 +41,11 @@
         </div>
     </div>
     <p class="logo">ranveer.</p>
+    <div class="theme_switcher_div">
+      <label class="switch">
+          <input id="theme_switcher" type="checkbox" onclick="switch_theme()">
+          <span class="slider round"></span>
+      </label>
+    </div>
 </body>
 </html>
