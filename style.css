@@ -1,8 +1,26 @@
+body[data-theme="light"] {
+    --color-1: black;
+    --color-2: #ffffffcc;
+    --section-background: url(Images/SectionBackground-light.jpg);
+    --header-footer: url(Images/SectionBackground.jpg);
+    --theme-switch-image: url(Images/light_mode.png);
+    --header-footer-font: white;
+}
+
+body[data-theme="dark"] {
+    --color-1: #ffffffcc;
+    --color-2: black;
+    --section-background: url(Images/SectionBackground.jpg);
+    --header-footer: url(Images/SectionBackground.jpg);
+    --theme-switch-image: url(Images/dark_mode.png);
+    --header-footer-font: white;
+} 
+
 body {
-    background-color: black;
-    color: #ffffffcc;
+    background-color: var(--color-2);
+    color: var(--color-1);
     text-align: center;
-    font-family: "playfair display black";  
+    font-family: "playfair display var(--color-2)";  
     font-size: 1.2rem;
     max-width: 100%;
     overflow-x: hidden; 
@@ -18,7 +36,7 @@ body {
 }
 
 .nav {
-    color: #ffffffcc;
+    color: var(--header-footer-font);
     text-decoration: none;
     font-size: 1.5rem;  
     margin-left: 1rem;
@@ -34,7 +52,7 @@ body {
     top: 0;
     left: 50%;
     transform: translate(-50%);
-    background: url("Images/SectionBackground.jpg");
+    background: var(--header-footer);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -71,7 +89,7 @@ body {
 .intro_head_text_2 {
     text-align: left;
     overflow: hidden;
-    border-right: .15em solid #ffffffcc; 
+    border-right: .15em solid var(--color-1); 
     white-space: nowrap; 
     margin: 0 auto;
     padding-right: 0.15em;
@@ -81,8 +99,8 @@ body {
 }
 
 .intro_bio {
-    background-color: #ffffffcc;
-    color: black;
+    background-color: var(--color-1);
+    color: var(--color-2);
     width: 80%;
     position: relative;
     left: 50%;
@@ -112,10 +130,10 @@ body {
 
 .education {
     position: relative;
-    background: url("Images/SectionBackground.jpg");
+    background: var(--section-background);
     background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid #ffffffcc;
+    border: 2px solid var(--color-1);
     margin-bottom: 3rem;
     width: 80%;
     text-align: left;
@@ -124,17 +142,17 @@ body {
 }
 
 .institution {
-    color: black;
-    background-color: #ffffffcc;
+    color: var(--color-2);
+    background-color: var(--color-1);
     padding-left: 1rem;
 }
 
 .skills {
     position: relative;
-    background: url("Images/SectionBackground.jpg");
+    background: var(--section-background);
     background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid #ffffffcc;
+    border: 2px solid var(--color-1);
     margin-bottom: 10rem;
     width: 80%;
     text-align: left;
@@ -143,8 +161,8 @@ body {
 }
 
 .subtitle {
-    background-color: #ffffffcc;
-    color: black;
+    background-color: var(--color-1);
+    color: var(--color-2);
     width: 80%;
     position: relative;
     left: 50%;
@@ -157,7 +175,7 @@ body {
     bottom: 0;
     left: 50%;
     transform: translate(-50%);
-    background: url("Images/SectionBackground.jpg");
+    background: var(--header-footer);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -176,10 +194,10 @@ form {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
-    background: url("Images/SectionBackground.jpg");
+    background: var(--section-background);
     background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid #ffffffcc;
+    border: 2px solid var(--color-1);
     top: 9rem;
     margin: 0;
     width: 80%;
@@ -187,9 +205,9 @@ form {
 }
 
 .submit_button {
-    color: #ffffffcc;
-    background-color: black;
-    border: 2px solid #ffffffcc;
+    color: var(--color-1);
+    background-color: var(--color-2);
+    border: 2px solid var(--color-1);
     border-radius: 3px;
     margin-bottom: 0.2rem;
     font-weight: 550;
@@ -197,13 +215,14 @@ form {
 }
 
 .submit_button:hover {
-    color: black;
-    background-color: #ffffffcc;
-    border: 2px solid #ffffffcc;
+    color: var(--color-2);
+    background-color: var(--color-1);
+    border: 2px solid var(--color-1);
     border-radius: 3px;
 }
 
 .logo {
+    color: var(--header-footer-font);
     position: fixed;
     top: 0;
     font-size: 1.5rem;
@@ -266,16 +285,71 @@ form {
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: #ffffffcc; }
+    50% { border-color: var(--color-1); }
 }
 
-/* .theme_switcher {
+.theme_switcher_div {
     position: fixed;
-    background-color: black;
-    border: 3px solid white;
-    border-radius: 100px;
-    padding: 5px;
     top: 7rem;
-    left: 85%;
-    transform: translate(-50%);
-} */
+    left: 80%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-1);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+input:checked + .slider {
+    background-color: black;
+}
+  
+input:focus + .slider {
+    box-shadow: 0 0 1px black;
+}
+  
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+.slider.round {
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+    border-radius: 50%;
+}
