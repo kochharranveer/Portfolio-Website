@@ -40,6 +40,8 @@ body {
     max-width: 100%;
     overflow-x: hidden; 
     font-weight: 800; 
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .nav_flex {
@@ -154,6 +156,7 @@ body {
     text-align: left;
     padding: 3rem;
     margin: 1rem;
+    /* border-radius: 2%; */
 }
 
 .institution {
@@ -173,6 +176,7 @@ body {
     text-align: left;
     padding: 3rem;
     margin: 1rem;
+    /* border-radius: 2%; */
 }
 
 .subtitle {
@@ -242,7 +246,7 @@ form {
     top: 0;
     font-size: 1.5rem;
     margin: 0.5rem;
-    margin-left: 10%;
+    margin-left: 0%;
     margin-right: 10%;
 }
 
