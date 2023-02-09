@@ -134,7 +134,7 @@ body {
     position: relative;
     top: 1rem;
     margin-right: 1rem;
-    filter: grayscale(100%);
+    filter: grayscale(60%);
 }
 
 .intro_para {
