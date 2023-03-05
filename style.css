@@ -267,7 +267,7 @@ form {
 }
 
 .notes_link, .notes_link:link, .notes_link:visited, .notes_link:active {
-    color: #ffffffcc;
+    color: var(--color-1);
 }
 
 .notes {
