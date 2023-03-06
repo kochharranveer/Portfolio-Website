@@ -20,19 +20,6 @@ body[data-theme="dark"] {
 
 /* Scroll Wheel Hidden */
 
-body::-webkit-scrollbar {
-    display: none;
-}
-
-body {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-
-/* Scroll Wheel */
-
-/* Scroll Wheel Hidden */
-
 /* body::-webkit-scrollbar {
     display: none;
 }
