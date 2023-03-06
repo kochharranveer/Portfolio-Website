@@ -343,6 +343,17 @@ form {
         top: 4rem;
     }
     
+    /* Scroll Wheel Hidden */
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+
+    body {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+    
 }
 
 /* Animation */
