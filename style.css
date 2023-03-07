@@ -1,7 +1,7 @@
 /* Theme Color Variables */
 
 body[data-theme="light"] {
-    --color-1: black;
+    --color-1: 000000cc;
     --color-2: #dedede;
     --section-background: url(Images/SectionBackground-light.jpg);
     --header-footer: url(Images/SectionBackground.jpg);
@@ -160,6 +160,7 @@ body {
     font-size: 1.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    backdrop-filter: blur(10px);
     /* animation-name: slide_in;
     animation-duration: 1s; */
 }
