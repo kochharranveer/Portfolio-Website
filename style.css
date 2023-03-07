@@ -2,7 +2,7 @@
 
 body[data-theme="light"] {
     --color-1: black;
-    --color-2: #eeeeee;
+    --color-2: #dedede;
     --section-background: url(Images/SectionBackground-light.jpg);
     --header-footer: url(Images/SectionBackground.jpg);
     --theme-switch-image: url(Images/light_mode.png);
@@ -11,7 +11,7 @@ body[data-theme="light"] {
 
 body[data-theme="dark"] {
     --color-1: #ffffffcc;
-    --color-2: black;
+    --color-2: #191919;
     --section-background: url(Images/SectionBackground.jpg);
     --header-footer: url(Images/SectionBackground.jpg);
     --theme-switch-image: url(Images/dark_mode.png);
