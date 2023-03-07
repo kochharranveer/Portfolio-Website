@@ -1,7 +1,7 @@
 /* Theme Color Variables */
 
 body[data-theme="light"] {
-    --color-1: 000000cc;
+    --color-1: #000000cc;
     --color-2: #dedede;
     --section-background: url(Images/SectionBackground-light.jpg);
     --header-footer: url(Images/SectionBackground.jpg);
