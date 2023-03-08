@@ -244,6 +244,11 @@ body {
     margin-top: 0.5rem;
 }
 
+.github { 
+    position: relative;
+    bottom: 3px;
+}
+
 form {
     position: relative;
     left: 50%;
