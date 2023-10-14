@@ -263,10 +263,6 @@ form {
     padding: 1rem;
 }
 
-textarea {
-    width: 193px;
-}
-
 .submit_button {
     color: var(--color-1);
     background-color: var(--color-2);
