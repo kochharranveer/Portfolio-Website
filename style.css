@@ -3,7 +3,7 @@
 body[data-theme="light"] {
     --color-1: #000000cc;
     --color-2: #dedede;
-    --section-background: url(Images/SectionBackground-light.jpg);
+    --section-background: url(Images/SectionBackground.jpg);
     --header-footer: url(Images/SectionBackground.jpg);
     --theme-switch-image: url(Images/light_mode.png);
     --header-footer-font: white;
