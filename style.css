@@ -206,7 +206,7 @@ body {
     background: url(Images/SectionBackground.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid #ffffffcc;
+    border: 2px solid var(--color-1)c;
     margin-bottom: 10rem;
     width: 80%;
     text-align: left;
