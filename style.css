@@ -182,7 +182,7 @@ body {
 
 .education {
     position: relative;
-    background: var(--section-background);
+    background: url(Images/SectionBackground.jpg);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid var(--color-1);
@@ -191,32 +191,34 @@ body {
     text-align: left;
     padding: 3rem;
     margin: 1rem;
+    color: #dedede;
     /* border-radius: 2%; */
 }
 
 .institution {
-    color: var(--color-2);
-    background-color: var(--color-1);
+    color: #000000cc;
+    background-color: #ffffffcc;
     padding-left: 1rem;
 }
 
 .skills {
     position: relative;
-    background: var(--section-background);
+    background: url(Images/SectionBackground.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid var(--color-1);
+    border: 2px solid #ffffffcc;
     margin-bottom: 10rem;
     width: 80%;
     text-align: left;
     padding: 3rem;
     margin: 1rem;
+    color: #dedede;
     /* border-radius: 2%; */
 }
 
 .subtitle {
-    background-color: var(--color-1);
-    color: var(--color-2);
+    background-color: #ffffffcc;
+    color: #000000cc;
     width: 80%;
     position: relative;
     left: 50%;
