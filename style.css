@@ -20,11 +20,11 @@ body[data-theme="dark"] {
 
 /* Scroll Wheel Hidden */
 
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
 }
 
-body {
+/* body {
     -ms-overflow-style: none;
     scrollbar-width: none;
 } */
