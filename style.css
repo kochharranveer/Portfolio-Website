@@ -255,7 +255,7 @@ form {
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
-    background: var(--section-background);
+    background: url(Images/SectionBackground.jpg);
     background-repeat: no-repeat;
     background-position: center;
     border: 2px solid var(--color-1);
@@ -263,12 +263,13 @@ form {
     margin: 0;
     width: 80%;
     padding: 1rem;
+    color: #ffffffcc;
 }
 
 .submit_button {
     color: var(--color-1);
     background-color: var(--color-2);
-    border: 2px solid var(--color-1);
+    border: 2px solid #ffffffcc;
     border-radius: 3px;
     margin-bottom: 0.2rem;
     font-weight: 550;
@@ -278,7 +279,7 @@ form {
 .submit_button:hover {
     color: var(--color-2);
     background-color: var(--color-1);
-    border: 2px solid var(--color-1);
+    border: 2px solid #ffffffcc;
     border-radius: 3px;
 }
 
